@@ -27,7 +27,7 @@ php artisan migrate
 ```
 10. シーディングの実行
 ```
-php artisan db:seed
+php artisan migrate:fresh --seed
 ```
 ## 使用技術(実行環境)
 - PHP8.1.34
