@@ -1,0 +1,161 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1512px;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.title {
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.error {
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #FD0707;
+}
+
+.form__name-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.name__label {
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #4B4B4B;
+}
+
+.form__price-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.price__label {
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #4B4B4B;
+    margin-top: 20px;
+}
+
+.form__image-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.image__label {
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #4B4B4B;
+    margin-top: 20px;
+}
+
+
+.form__season-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.season__label {
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #4B4B4B;
+    margin-top: 20px;
+}
+
+.required {
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #FD0707;
+    padding: 1px 5px;
+    gap: 10px;
+}
+
+.form__description-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.description__label {
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #4B4B4B;
+    margin-top: 20px;
+}
+
+.multiple {
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", sans-serif;
+    font-weight: 300;
+    color: #FD0707;
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.season-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 900px;
+    padding: 11px 10px;
+    border: 1px solid #E0DFDF;
+    border-radius: 5px;
+    gap: 10px;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 760px;
+    padding: 50px 50px;
+    border: 1px solid #E0DFDF;
+    border-radius: 5px;
+    gap: 10px;
+    font-size: 14px;
+}
+input::placeholder,
+textarea::placeholder {
+    color: #E0DFDE;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 13px 10px;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.back_btn {
+    background-color: #E0DFDE;
+    color: #4B4B4B;
+}
+
+.register_btn {
+    background-color: #F5C800;
+    color: #4B4B4B;
+}

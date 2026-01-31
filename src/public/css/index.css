@@ -1,0 +1,202 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-row h1 {
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Meiryo", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.add-button {
+    background: #FFA929;
+    color: #4B4B4B;
+    padding: 13px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Meiryo", sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-button:hover {
+    opacity: 0.9;
+}
+
+.product-page {
+    display: flex;
+    gap: 40px;
+}
+
+.product-controls {
+    width: 240px;
+    padding: 20px;
+    gap: 40px;
+}
+
+.product-controls input[type="text"] {
+    width: 100%;
+    padding: 14.5px 10px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    border: 1px solid #E0DFDE;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Meiryo", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #E0DFDE;
+}
+
+.product-controls button {
+    width: 100%;
+    padding: 10px;
+    background: #F5C800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Meiryo", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #4B4B4B;
+}
+
+.product-controls p {
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Meiryo", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.product-controls select {
+    width: 100%;
+    padding: 11px 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.sort-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 21px;
+    gap: 10px;
+    border: 1px solid #F5C800;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Meiryo", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #4B4B4B;
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+
+.sort-tag a {
+    margin-left: 5%;
+    border-radius: 8px;
+    padding: 5px;
+    gap: 10px;
+    transform: rotate(90deg);
+    border: 1px solid #F5C800;
+    color: #F5C800;
+    text-decoration: none;
+}
+
+.product-list {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+}
+
+.product-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.product-image {
+    height: 180px;
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Meiryo", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.pagination-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.pagination-wrapper p {
+    display: none;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pagination li {
+    list-style: none;
+}
+
+.pagination li a,
+.pagination li span {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pagination li.active span {
+    background-color: #F5C800;
+    color: #FFFFFF;
+}
+
+.pagination li.disabled span {
+    opacity: 0.4;
+    box-shadow: none;
+}

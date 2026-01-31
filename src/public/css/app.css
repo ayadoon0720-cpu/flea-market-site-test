@@ -1,0 +1,32 @@
+.header {
+    background: #FFFFFF;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.header-inner {
+    display: flex;
+    max-width: 1512px;
+    max-height: 53px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 10px;
+}
+
+.logo {
+    font-family: "jsMath-cmti10", serif;
+    font-style: italic;
+    color: #F5C800;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main {
+    background-color: #F8F8F8;
+}
+
+.main-inner {
+    display: flex;
+    flex-direction: column;
+    max-width: 1512px;
+
+}
